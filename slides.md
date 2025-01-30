@@ -29,7 +29,41 @@ image: images/StenOttoJohnsen_6879.jpg
 ## Sten Johnsen
 
 
+---
 
+# Background
+
+ABB Robotics
+
+test-rack
+
+e2e tests heavy and not run on pr commit
+
+
+---
+
+# Stuff you need
+
+
+---
+
+# Programming the RGB controller
+
+Soldering wires and wireless
+
+---
+
+# Setting up an MQTT Broker
+
+
+---
+
+# Mounting column in the team-room
+
+
+---
+
+# Setting up workflow calls
 
 ---
 layout: 3-images
