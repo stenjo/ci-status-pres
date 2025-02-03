@@ -32,8 +32,13 @@ image: 'images/StenOttoJohnsen_6879.jpg'
 
 
 ---
+layout: image-right
+image: images/testrack.webp
 
-# Background
+---
+
+# Inspiration
+
 
 ABB Robotics
 
@@ -111,6 +116,10 @@ image: 'images/raspi-screendump.png'
 
 # Setting up an MQTT Broker
 
+
+---
+layout: image-left
+image: images/IMG_2469.jpeg
 
 ---
 
