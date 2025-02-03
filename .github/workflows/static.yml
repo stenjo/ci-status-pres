@@ -44,7 +44,7 @@ jobs:
           yarn add @slidev/cli
 
       - name: Build Slides
-        run: yarn slidev build --base secure-coding-pres
+        run: yarn slidev build
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
         with:
