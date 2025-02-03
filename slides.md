@@ -43,15 +43,40 @@ e2e tests heavy and not run on pr commit
 
 
 ---
+layout: image-right
+image: images/bom.png
+
+---
 
 # Stuff you need
 
+- Status column (AliExpress, [Item 4000386522400](https://www.aliexpress.com/item/4000386522400.html))
+- MagicHome RGB LED Controller (AliExpress, [Item 1005005897407952](https://www.aliexpress.com/item/1005005897407952.html))
+- 24V powersupply (Kjell&Co, [Switchet strømadapter 24 V (DC) 24 W](https://www.kjell.com/no/produkter/elektro-og-verktoy/stromadaptrer/acdc-stromadapter/fast-utgangsspenning/switchet-stromadapter-24-v-dc-24-w-p44789) )
+- 2 x bolts & nuts for mounting
+- MQTT Broker available publicly
 
+
+
+---
+layout: image-right
+image: images/rgb_wires.jpeg
 ---
 
 # Programming the RGB controller
 
-Soldering wires and wireless
+The LED RGB controller needs to be reprogrammed because China
+
+To do this we need wires soldered to the board
+
+Connect to a USB->TTL Serial converter and verify you have contact
+
+Note:
+
+- Soldered pads are brittle and comes off easily
+- Make sure the `boot` pad is connected to `V33` either directly or via 10K resistor.
+- NEVER connect any wire to anything other than `GND` or `V33` unless to serial adapter.
+
 
 ---
 
@@ -103,6 +128,11 @@ imageLeft: 'images/rgb_wires.jpeg'
 imageBottomRight: 'images/serial-adapter.jpeg'
 
 ---
+
+---
+
+# References
+
 
 ---
 
