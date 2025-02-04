@@ -155,4 +155,15 @@ imageBottomRight: 'images/serial-adapter.jpeg'
 
 
 ---
+layout: fact
 
+---
+
+# Thank you!
+
+
+
+
+## ![Presentation](/images/QR.png) {width=150px margin=30px align=right}
+
+---
