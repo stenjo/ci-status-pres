@@ -1,7 +1,7 @@
 ---
 theme: apple-basic
 layout: intro-image
-image: 'images/frontcover.jpeg'
+image: '/images/frontcover.jpeg'
 title: CI Status indicator
 
 transitions: slide-left, slide-right
@@ -32,7 +32,7 @@ A tech geek spending his work and spare time figuring out stuff involving electr
 
 
 - **Bouvet** - Since 2008, currently team-lead and (full-stack) developer
-![Sten](./images/Sten_Johnsen_6879.JPG) {width=200px margin=30px align=right}
+![Sten](/images/StenOttoJohnsen_6879.jpeg) {width=200px margin=30px align=right}
 
 - **Experience** - Graduated 1991 - B.Eng Microelectronic computer systems. Programming since my first real job - never looked back.
   
@@ -44,23 +44,25 @@ A tech geek spending his work and spare time figuring out stuff involving electr
 
 ---
 layout: image-right
-image: images/testrack.webp
-
+image: /images/testrack.webp
 ---
 
 # Inspiration
 
 
-ABB Robotics
+ABB Robotics had a policy of backwardds compatibility of their software on all årevious controller designs
 
 test-rack
 
 e2e tests heavy and not run on pr commit
 
+<!--
+The story about how they displayed the last committer on the info-screens if the nightly builds and tests failed
+-->
 
 ---
 layout: image-right
-image: images/bom.png
+image: /images/bom.png
 
 ---
 
@@ -76,7 +78,7 @@ image: images/bom.png
 
 ---
 layout: image-right
-image: images/rgb_wires.jpeg
+image: /images/rgb_wires.jpeg
 ---
 
 # Programming the RGB controller
@@ -120,7 +122,7 @@ Wait a few minutes, reboot and you should have OpenBeken SW running.
 
 ---
 layout: image
-image: 'images/raspi-screendump.png'
+image: /images/raspi-screendump.png
 ---
 
 ---
@@ -130,7 +132,7 @@ image: 'images/raspi-screendump.png'
 
 ---
 layout: image-left
-image: images/IMG_2469.jpeg
+image: /images/IMG_2469.jpeg
 
 ---
 
@@ -143,9 +145,9 @@ image: images/IMG_2469.jpeg
 
 ---
 layout: 3-images
-imageTopRight: 'images/IMG_2446.jpg'
-imageLeft: 'images/rgb_wires.jpeg'
-imageBottomRight: 'images/serial-adapter.jpeg'
+imageTopRight: /images/IMG_2446.jpg
+imageLeft: /images/rgb_wires.jpeg
+imageBottomRight: /images/serial-adapter.jpeg
 
 ---
 
@@ -165,5 +167,3 @@ layout: fact
 
 
 ## ![Presentation](/images/QR.png) {width=150px margin=30px align=right}
-
----
