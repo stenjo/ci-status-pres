@@ -59,6 +59,45 @@ e2e tests heavy and not run on pr commit
 <!--
 The story about how they displayed the last committer on the info-screens if the nightly builds and tests failed
 -->
+---
+
+# End-to-end tests
+
+graph - gihub workflow
+
+
+---
+layout: two-cols
+---
+
+# Solution
+
+
+
+dagram
+
+Workflow result trigger a light on the status-column
+
+::right::
+```mermaid {scale: 0.7, alt: 'Sequence of events'}
+
+flowchart TD
+    A[GitHub Workflow] -->|Triggers MQTT Message| B(MQTT Broker at Home 🔒)
+    B -->|SSL & Authenticated Message| C[RGB LED Controller 🟢🟡🔴 at office]
+    C -->|Subscribes & Sets Light| D{Status}
+    
+    D -->|Green| E[✅ Success]
+    D -->|Yellow| F[⚠️ Running]
+    D -->|Red| G[❌ Error]
+    
+    style B fill:#f9f,stroke:#333,stroke-width:2px
+    style C fill:#bbf,stroke:#333,stroke-width:2px
+    style D fill:#ff9,stroke:#333,stroke-width:2px
+```
+
+<!--
+MQTT Broker should be set up at the Bouvet office - available for others as well
+-->
 
 ---
 layout: image-right
@@ -136,8 +175,12 @@ image: /images/IMG_2469.jpeg
 
 ---
 
-# Mounting column in the team-room
+# Mounting status-ligths
 
+To fit nicely: 
+- Had to create and 3D-print a suitable bracket
+
+![Bracket](/images/mounting-bracket.png)
 
 ---
 
